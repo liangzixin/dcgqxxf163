@@ -37,11 +37,11 @@ public class XinWen_adapter {
     public static int getXinWenType(String daoHangtitle){
         if (daoHangtitle.equals("热点")){
             return rendian;
-        }else if (daoHangtitle.equals("头条")){
+        }else if (daoHangtitle.equals("最新")){
             return toutiao;
-        }else if (daoHangtitle.equals("娱乐")){
+        }else if (daoHangtitle.equals("招聘")){
             return yule;
-        }else if (daoHangtitle.equals("体育")){
+        }else if (daoHangtitle.equals("求职")){
             return tiyu;
         }else if (daoHangtitle.equals("财经")){
             return caijing;

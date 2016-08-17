@@ -28,17 +28,17 @@
                     style="@style/radio_style"
                     android:id="@+id/xinwen_rb1"
                     android:checked="true"
-                    android:text="头条"/>
+                    android:text="最新"/>
 
                 <RadioButton
                     style="@style/radio_style"
                     android:id="@+id/xinwen_rb2"
-                    android:text="娱乐"/>
+                    android:text="招聘"/>
 
                 <RadioButton
                     style="@style/radio_style"
                     android:id="@+id/xinwen_rb3"
-                    android:text="体育"/>
+                    android:text="求职"/>
 
                 <RadioButton
                     style="@style/radio_style"

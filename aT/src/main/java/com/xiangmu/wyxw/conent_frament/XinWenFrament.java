@@ -72,19 +72,19 @@ public class XinWenFrament extends Fragment implements View.OnClickListener {
         xinwen_framentlist = new ArrayList<>();
         TouTiaoFrament toutiao=new TouTiaoFrament();
         Bundle bundletoutiao=new Bundle();
-        bundletoutiao.putString("xinwendaohang", "头条");
+        bundletoutiao.putString("xinwendaohang", "最新");
         toutiao.setArguments(bundletoutiao);
         xinwen_framentlist.add(toutiao);
 
         TouTiaoFrament yule=new TouTiaoFrament();
         Bundle bundleyule=new Bundle();
-        bundleyule.putString("xinwendaohang", "娱乐");
+        bundleyule.putString("xinwendaohang", "招聘");
         yule.setArguments(bundleyule);
         xinwen_framentlist.add(yule);
 
         TouTiaoFrament tiyu=new TouTiaoFrament();
         Bundle bundletiyu=new Bundle();
-        bundletiyu.putString("xinwendaohang", "体育");
+        bundletiyu.putString("xinwendaohang", "求职");
         tiyu.setArguments(bundletiyu);
         xinwen_framentlist.add(tiyu);
 
