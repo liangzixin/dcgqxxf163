@@ -1,10 +1,16 @@
 package com.xiangmu.wyxw.utils;
 
+import com.xiangmu.wyxw.Modle.ProductInfo;
+import com.xiangmu.wyxw.Service.ProductInfoService;
+
+import java.util.List;
+
 /**
  * Created by Administrator on 2015/11/13.
  */
 public class XinWenURL {
     public int stratPage = 0;
+    List<ProductInfo> productInfos=null;
     //热点
     String redian="http://c.3g.163.com/nc/article/list/T1429173762551/0-20.html";
 
@@ -34,7 +40,8 @@ public class XinWenURL {
 
     public String getToutiao() {
         int page = getStratPage();
-        String toutiao = "http://c.m.163.com/nc/article/headline/T1348647853363/" + page + "-" + (page + 20) + ".html";//头条
+   String toutiao = "http://c.m.163.com/nc/article/headline/T1348647853363/" + page + "-" + (page + 20) + ".html";//头条
+
         return toutiao;
     }
 

@@ -1,5 +1,6 @@
 package com.xiangmu.wyxw.utils;
 
+import com.xiangmu.wyxw.Modle.ProductInfo;
 import com.xiangmu.wyxw.Service.ProductInfoService;
 
 import org.json.JSONArray;
@@ -19,17 +20,19 @@ public class XinWenJson {
             JSONObject object=new JSONObject(data);
             LogUtils.e("xinwenjsonobject", object + "");
             JSONArray array = null;
+            List<ProductInfo> productInfos=null;
             switch (type){
                 case XinWen_adapter.rendian:
                     array=object.getJSONArray("T1429173762551");//热点
                     break;
                 case XinWen_adapter.toutiao:
-                //    array=object.getJSONArray("T1348647853363");//头条
+                array=object.getJSONArray("T1348647853363");//头条
+
                     try{
                         //获取餐桌列表数据
                         ProductInfoService productInfoService = new  ProductInfoService();
 
-                        array= productInfoService.QueryAllProductInfo(1,20);
+                        productInfos= productInfoService.QueryAllProductInfo(1,20);
 
                     } catch (Exception e) {
                         // TODO Auto-generated catch block
