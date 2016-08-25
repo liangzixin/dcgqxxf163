@@ -9,13 +9,15 @@ android {
     aaptOptions.useNewCruncher = false
 
     defaultConfig {
-        applicationId "com.xiangmu.wyxw"
+        applicationId "com.xiangmu.dcgqxxf"
         minSdkVersion 16
         targetSdkVersion 23
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_7
             targetCompatibility JavaVersion.VERSION_1_7
         }
+        versionCode 1
+        versionName "1.0"
     }
 
     buildTypes {

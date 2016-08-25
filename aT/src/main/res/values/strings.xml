@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">东川供求信息网</string>
+    <string name="app_name">东川访网易</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -14,7 +14,7 @@
     <string name="title_activity_yue_du_detial">YueDuDetialActivity</string>
     <string name="title_xinwenxiactivity">xinwenxiactivity</string>
     <string name="title_activity_web_view">WebViewActivity</string>
-    <string name="title_activity_welcome">东川供求信息网</string>
+    <string name="title_activity_welcome">东川访网易</string>
     <string name="title_activity_picture">PictureActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_backpassword">BackpasswordActivity</string>

@@ -28,16 +28,16 @@ public class XinWenJson {
                 case XinWen_adapter.toutiao:
                 array=object.getJSONArray("T1348647853363");//头条
 
-                    try{
-                        //获取餐桌列表数据
-                        ProductInfoService productInfoService = new  ProductInfoService();
-
-                        productInfos= productInfoService.QueryAllProductInfo(1,20);
-
-                    } catch (Exception e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
-                    }
+//                    try{
+//                        //获取餐桌列表数据
+//                        ProductInfoService productInfoService = new  ProductInfoService();
+//
+//                        productInfos= productInfoService.QueryAllProductInfo(1,20);
+//
+//                    } catch (Exception e) {
+//                        // TODO Auto-generated catch block
+//                        e.printStackTrace();
+//                    }
                     break;
                 case XinWen_adapter.yule:
                     array=object.getJSONArray("T1348648517839");//娱乐T1348648517839

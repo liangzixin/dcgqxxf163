@@ -298,7 +298,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">东川供求信息网</string>
+    <string name="app_name">东川访网易</string>
     <string name="hello">Hello World, BarCodeTestActivity!</string>
     <string name="hello_world">Hello world!</string>
     <string name="picture_image_loading">正在加载…</string>
@@ -334,7 +334,7 @@
     <string name="title_activity_updater">UpdaterActivity</string>
     <string name="title_activity_weather">WeatherActivity</string>
     <string name="title_activity_web_view">WebViewActivity</string>
-    <string name="title_activity_welcome">东川供求信息网</string>
+    <string name="title_activity_welcome">东川访网易</string>
     <string name="title_activity_xin_wen_xi">XinWenXiActivity</string>
     <string name="title_activity_yue_du">YueDuActivity</string>
     <string name="title_activity_yue_du_detial">YueDuDetialActivity</string>
